@@ -1,9 +1,9 @@
 class Ipv6utils < Formula
   desc "A toolset for IPv6 utilities"
   homepage "https://github.com/buraglio/ipv6utils"
-  url "https://github.com/buraglio/ipv6utils/archive/refs/tags/v4.tar.gz"
-  sha256 "604c50eccc07db6c96b7efefbeb1e6b853e9681e0639297e119e3f34be367dd4"
-  version "4"
+  url "https://github.com/buraglio/ipv6utils/archive/refs/tags/v5.tar.gz"
+  sha256 "2954dcf910dddfd1271d1438c8100f4115fb9a067cd1088f4829c3405a58644b"
+  version "5"
   depends_on "go"  #  Ensures Go is installed to build the project
 
   def install
